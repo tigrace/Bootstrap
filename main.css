@@ -1,0 +1,84 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+  }
+  /*--- navigation bar ---*/
+  .navbar {
+    /* background:#6b4d3f; */
+    background: #94a0b0;
+  }
+  .nav-link,
+  .navbar-brand {
+    color: #fff;
+    cursor: pointer;
+  }
+  .nav-link {
+    margin-right: 1em !important;
+  }
+  .nav-link:hover {
+    color: #000;
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+  .jumbotron {
+   padding-top: 2px;
+   margin-top: auto;
+   background: whitesmoke; 
+   
+  }
+  .row {
+    background:;
+    font-family: monospace;
+    margin-top: 9px;
+    line-height: 1.4em;
+  }
+  #content {
+    background-image: url(photo/mactab.jpg);
+  }
+ 
+  <div class="container-fluid relaive">
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="photo/children4.jpg" class="d-block w-100" alt="children1" width="100%" height="600px">
+      <div class="carousel-caption d-none d-md-block">   
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="photo/children1.jpg" class="d-block w-100" alt="children2" width="100%" height="600px">
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </div>
+
+      <div class="carousel-item">
+        <img src="photo/children.jpg" class="d-block w-100" alt="children2" width="100%" height="600px">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+    <!-- <div class="">
+          <div class="word">
+              <h5>First slide label</h5>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </span> 
+            </div>
+            <div>
+              <h5>First slide label</h5>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </div>
+            <div>
+              <h5>First slide label</h5>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            
+            </div>
+          </div>  -->
+        </div>
+      </div>
+  
+ 
